@@ -97,15 +97,12 @@ body {
   cursor: pointer;
 }
 
-
-/*estilos editar_usuario*/
-
-
-
 .imagen {
 
    cursor:pointer;
 }
+
+/*estilos editar_usuario*/
 
 .titulo {
    color: white;
@@ -120,9 +117,5 @@ body {
 
 .tabla {
    color: white;
-	width:300px;
-	padding:50px;
-	border-radius:20px;
-	margin:auto;
-	background-color:#ccc;
 }
+
