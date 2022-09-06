@@ -115,7 +115,26 @@ body {
 
 }
 
-.tabla {
+.Titulo1 {
    color: white;
+   justify-content: center;
+   justify-items: center;
+   display: flex;
+   padding: 20px;
 }
+
+.container1 {
+
+   display: flex;
+   color: white;
+   justify-content: center;
+   align-items: center;
+   background-color: #737880;
+   padding: 20px;
+   margin: auto;
+   border-radius: 2px;
+
+}
+
+
 
