@@ -120,21 +120,37 @@ body {
    justify-content: center;
    justify-items: center;
    display: flex;
-   padding: 20px;
+   padding: 30px;
+
 }
 
 .container1 {
 
-   display: flex;
+   padding: 40px;
    color: white;
    justify-content: center;
    align-items: center;
    background-color: #737880;
-   padding: 20px;
    margin: auto;
-   border-radius: 2px;
+   width: 400px;
+   border-radius: 20px;
 
 }
 
+.inputText {
 
+   border-radius: 5px;
+   border: 1px solid white;
+}
+
+.inputSub {
+
+   cursor: pointer;
+   border-radius: 3px;
+   padding: 4px;
+   border: 1px solid white;
+   font-size: 15px;
+   font-weight: bold;
+
+}
 
