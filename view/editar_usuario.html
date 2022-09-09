@@ -4,43 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/view/style.css">
+    <link rel="stylesheet" href="./style.css">
   
     <title>Usuario</title>
   </head>
   <body class="fondo">
 
     <div class="imagen">
-      <a href="/view/proyecto_v1.html" target="_blank"><img src="/view/picture/regreso.png" alt="Regreso" width="6%"></a>
+      <a href="proyecto_v1.html" ><img src="./picture/regreso.png" alt="Regreso" width="6%"></a>
     </div>
 
   <h1 class="Titulo1">Cambiar datos de usuario</h1>
 
     <div class="container1">
-      <form action="html-txt"></form>
+      <form action="#" method="get">
+      
+        <div>
+        <label for="usuario">Usuario:</label>
+        <br>
+        <input class= "inputText" type="text" name="usuario" id="usuario">
+        <br><br>
+        </div>
 
-        <label for="Usuario">Usuario:</label>
+        <div>
+        <label for="nombre">Nombre:</label>
         <br>
-        <input class= "inputText" type="text" name="" id="">
+        <input class= "inputText" type="text" name="nombre" id="nombre">
         <br><br>
-        <label for="Nombre">Nombre:</label>
-        <br>
-        <input class= "inputText" type="text" name="" id="">
-        <br><br>
+        </div>
+
+        <div>
         <label for="password">Contraseña:</label>
         <br>
-        <input class= "inputText" type="Password" name="" id="">
+        <input class= "inputText" type="password" name="password" id="password">
         <br><br>
-        <label for="mail">Correo:</label>
+        </div>
+
+        <div>
+        <label for="email">Correo:</label>
         <br>
-        <input class= "inputText" type="mail" name="" id="">
+        <input class= "inputText" type="email" name="email" id="email">
         <br><br>
+        </div>
+
           <div >
             <input  class="inputSub" type="submit" value="Enviar">
           </div>
-    </div>
+  </div>
+    </form>
 
-
-  <script src="/view/script.js"></script>
+  <script src="./script.js"></script>
   </body>
 </html>
