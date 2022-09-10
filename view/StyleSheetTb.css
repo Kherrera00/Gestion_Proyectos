@@ -13,6 +13,8 @@ table,
 th,
 td {
     border: 1px solid;
+    border-radius: 4px;
+    
 }
 
 td {
@@ -20,6 +22,7 @@ td {
 }
 
 .contenedor1 {
+    
     width: 80%;
     display: table;
     margin: 0 auto;
@@ -33,6 +36,7 @@ table {
     text-align: left;
     background-color: #455c53;
     color: white;
+    
 }
 
 .titulo1 {
@@ -60,7 +64,7 @@ table {
 .titulo_tabla2 {
     padding-top: 12px;
     padding-bottom: 12px;
-    text-align: left;
+    text-align: center;
     background-color: #455c53;
     color: white;
 }
