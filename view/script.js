@@ -26,7 +26,7 @@ function agregarProyecto( proyecto,id,realizado,eliminado) {
   `
     <li id="elemento">
       <i class="far ${REALIZADO} cursor" data="realizado" id="${id}"></i>
-      <a  class="link" href="/view/CreacionP.html" target="_blank"><p class="text ${LINE}">${proyecto}</p></a>
+      <a  class="link" href="./tabla.html" target="_blank"><p class="text ${LINE}">${proyecto}</p></a>
       <i class="fas fa-trash de cursor" data="eliminado" id="${id}"></i> 
     </li>
   `
