@@ -4,8 +4,8 @@ let conexion = mysql.createConnection({
 
   host: "localhost",
   user: "root",
-  password: "Admin12345",
-  database: "crearusuario"
+  password: "123456",
+  database: "dbweb"
 });
 
 conexion.connect(function(err){
